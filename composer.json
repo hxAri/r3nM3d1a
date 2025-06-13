@@ -1,0 +1,32 @@
+{
+    "authors": [
+        {
+            "name": "hxari",
+            "email": "hxari@proton.me"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "system/constant.php",
+            "system/helpers.php",
+            "system/booting/bootstrap.php"
+        ],
+        "psr-4": {
+            "hxAri\\r3nM3d1a\\": "src/"
+        }
+    },
+    "bin": "r3nm3d1a",
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    },
+    "description": "A Media Renamer Based on Crypted Timestamp and Checksum/Hash",
+    "license": "MIT",
+    "name": "hxari/r3nm3d1a",
+    "require": {
+        "php": "^8.2"
+    },
+    "scripts": {},
+    "type": "project"
+}
